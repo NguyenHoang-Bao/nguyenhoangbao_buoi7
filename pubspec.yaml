@@ -1,0 +1,27 @@
+name: nguyenhoangbao_buoi7
+description: "Bài 07 - Multimedia (tt): Google Maps"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.10.0   # widget bản đồ GoogleMap, Marker, Polyline
+  geolocator: ^14.0.0            # lấy vị trí hiện tại (GPS)
+  http: ^1.2.0                   # gọi Routes / Geocoding / Places API
+  sqflite: ^2.4.0                # SQLite - lưu tuyến đường yêu thích
+  path: ^1.9.0                   # nối đường dẫn file database
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
